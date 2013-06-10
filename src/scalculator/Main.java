@@ -28,8 +28,8 @@ import scalculator.guiQt.Gui;
  */
 
 public class Main {
-    public static void main(String[] args){
-        QApplication.initialize(args);
+    public static void main(String[] arg){
+        QApplication.initialize(arg);
         Gui gui = new Gui();
         gui.show();
         QApplication.execStatic();
